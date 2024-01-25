@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= locals.title ? title : "login" %></title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="/img/hospital.jpeg" alt="">
+        </div>
+        <div class="text-center mt-4 name">
+            Patient Record
+        </div>
+        <form action="/login" method="post" class="p-3 mt-3">
+            <div class="form-field d-flex align-items-center">
+                <span class="far fa-user"></span>
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+            <div class="form-field d-flex align-items-center">
+                <span class="fas fa-key"></span>
+                <input type="password" name="password" id="pwd" placeholder="Password">
+            </div>
+            <button type="submit" class="btn mt-3">Login</button>
+        </form>
+        
+    </div>
+    <script src="#"></script>
+</body>
+</html> 
+
+
+
+ 
