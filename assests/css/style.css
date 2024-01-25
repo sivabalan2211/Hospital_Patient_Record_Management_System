@@ -9,8 +9,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    background: #ecf0f3;
+* {
+    background-image: url("/assests/img/bg.png");
 }
 
 .wrapper {
